@@ -1,0 +1,13 @@
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer__display {
+  font-size: clamp(5rem, 20vw, 18rem);
+  font-weight: 700;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+  user-select: none;
+}
