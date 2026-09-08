@@ -1,6 +1,6 @@
 import {useEffect, useRef, useState } from 'react'
 
-export function useTimer(initialSeconds:number = 300, onComplete?:() => void)
+export function useTimer(initialSeconds:number = 900, onComplete?:() => void)
 {
     const [timeLeft, setTimeLeft] = useState(initialSeconds);
     const [isRunning, setIsRunning] = useState(false);

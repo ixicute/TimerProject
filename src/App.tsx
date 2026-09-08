@@ -31,7 +31,7 @@ function App() {
     pause,
     reset,
     setTime,
-  } = useTimer(300, playAlarm);
+  } = useTimer(900, playAlarm);
 
   return (
     <main className="app">

@@ -8,7 +8,7 @@ type TimeInputProps = {
 
 export default function TimeInput({onSetTime, disabled = false}:TimeInputProps)
 {
-    const [minutes, setMinutes] = useState(5);
+    const [minutes, setMinutes] = useState(15);
     const [seconds, setSeconds] = useState(0);
 
     function handleApply()
