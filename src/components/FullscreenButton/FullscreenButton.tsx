@@ -9,7 +9,7 @@ export default function FullscreenButton() {
   }
 
   return (
-    <button type="button" onClick={handleFullscreen}>
+    <button className="fullscreen-button" type="button" onClick={handleFullscreen}>
       Fullscreen
     </button>
   );

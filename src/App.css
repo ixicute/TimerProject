@@ -7,3 +7,9 @@
   justify-content: center;
   align-items: center;
 }
+
+:fullscreen .time-input,
+:fullscreen .timer-controls,
+:fullscreen .fullscreen-button {
+  display: none;
+}
