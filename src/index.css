@@ -1,0 +1,17 @@
+html,
+body,
+#root {
+  margin: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: violet;
+}
+
+#root {
+  min-height: 100vh;
+}

@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import "./App.css";
 
 import Timer from "./components/Timer/Timer";
 import TimerControls from "./components/TimerControls/TimerControls";
@@ -33,7 +34,7 @@ function App() {
   } = useTimer(300, playAlarm);
 
   return (
-    <main>
+    <main className="app">
       <TimeInput
         onSetTime={setTime}
         disabled={isRunning}
